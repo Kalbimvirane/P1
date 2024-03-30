@@ -8,17 +8,17 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", 29230573""))
 API_HASH = getenv("API_HASH",739c2e6d73a70fda7161bca0755fda97 "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN",7003197957:AAEeeotLw2NES1bAicyzGlBNQIGxM2_nXS0 "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
-OWNER_ID = int(getenv("OWNER_ID", 5931622575))
+LOGGER_ID = int(getenv("LOGGER_ID", "-4151138845"))
+OWNER_ID = int(getenv("OWNER_ID", 7099352477))
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "",
+    "https://github.com/Kalbimvirane/P1",
 )
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/"muzigin krali)
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/"muzikdestek)
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
