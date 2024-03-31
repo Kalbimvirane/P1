@@ -6,21 +6,22 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", 29230573""))
-API_HASH = getenv("API_HASH",739c2e6d73a70fda7161bca0755fda97 "")
-BOT_TOKEN = getenv("BOT_TOKEN",7003197957:AAEeeotLw2NES1bAicyzGlBNQIGxM2_nXS0 "")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+API_ID = int(getenv("API_ID", "27542255"))
+API_HASH = getenv("API_HASH", "25b518517482a62a35bd5fda24e8b0be")
+BOT_TOKEN = getenv("BOT_TOKEN", "6359653351:AAGJD8fJXSTLCYTXA-H2ykOZwogU7LwwSMk")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://nurullahpehlivan42:<password>@cluster0.z1ewzgp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 500))
 LOGGER_ID = int(getenv("LOGGER_ID", "-4151138845"))
 OWNER_ID = int(getenv("OWNER_ID", 7099352477))
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Kalbimvirane/P1",
+"https://github.com/Kalbimvirane/P1"
 )
+    
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/"muzigin krali)
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/"muzikdestek)
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BAA8y3YB_35ltstteKy8Tmf2VnOJegUPo0C-VYuV2zwx4U0BJatVm2OWUVGl8154JUHxLY-PbCLZqfXwLovs_3OJGVxFpI5wKN08gVSvwTlJaUfdlpIiUtaucNqPn78vC58Tao7qj44hkyXNP9Bj4y9vxTd4fDcWyFhpyqLiVrrM0YzB_lpkGkvK0SNfss5LJnF-bfddMwjYm7UxvIuZUTjl1piXM4TnHDV7uCnJntT8kJSP2G85Ig8hxC77I0YD9Ej3UM1-CUOyHiaULoIRi5htdNJwjN810Ie-DMCROxOrqOjrs-tIf_k7tS4c5INL9qHi2kSbdaAhDTfGcOpNhC0ZAAAAAZYUQuQA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
