@@ -18,7 +18,7 @@ UPSTREAM_REPO = getenv(
     "https://github.com/Kalbimvirane/P1",
 )
     
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/muzigin krali")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/muziginkrali")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/muzikdestek")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 STRING1 = getenv("STRING_SESSION", "BAA8y3YB_35ltstteKy8Tmf2VnOJegUPo0C-VYuV2zwx4U0BJatVm2OWUVGl8154JUHxLY-PbCLZqfXwLovs_3OJGVxFpI5wKN08gVSvwTlJaUfdlpIiUtaucNqPn78vC58Tao7qj44hkyXNP9Bj4y9vxTd4fDcWyFhpyqLiVrrM0YzB_lpkGkvK0SNfss5LJnF-bfddMwjYm7UxvIuZUTjl1piXM4TnHDV7uCnJntT8kJSP2G85Ig8hxC77I0YD9Ej3UM1-CUOyHiaULoIRi5htdNJwjN810Ie-DMCROxOrqOjrs-tIf_k7tS4c5INL9qHi2kSbdaAhDTfGcOpNhC0ZAAAAAZYUQuQA")
